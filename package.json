@@ -2,5 +2,11 @@
   "name": "actions-monorepo-poc",
   "private": true,
   "license": "Apache-2.0",
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "esbuild": "0.25.1",
+    "typescript": "5.9.3"
+  }
 }
