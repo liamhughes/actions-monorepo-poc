@@ -1,21 +1,15 @@
 {
   "extends": [
-    "config:base",
+    "config:recommended",
     ":disableMajorUpdates",
     ":ignoreModulesAndTests",
     ":pinVersions",
     ":rebaseStalePrs",
-    // Automatic merging is temporarily disabled.
-    // ":automergeDigest",
-    // ":automergePatch",
     ":automergePr",
     ":automergeRequireAllStatusChecks",
-    // ":automergeLinters",
-    // ":automergeTesters",
-    // ":automergeTypes",
     "packages:eslint",
     "workarounds:typesNodeVersioning",
-    "github>whitesource/merge-confidence:beta"
+    "mergeConfidence:all-badges"
   ],
   "branchPrefix": "renovate/",
   "packageRules": [
