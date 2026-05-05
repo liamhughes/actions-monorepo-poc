@@ -1,24 +1,31 @@
 {
   "extends": [
     "config:recommended",
-    ":disableMajorUpdates",
-    ":ignoreModulesAndTests",
+
+    ":disableMajorUpdates", // ?
+
     ":pinVersions",
     "helpers:pinGitHubActionDigests",
+
+    ":semanticCommits",
+
     ":rebaseStalePrs",
+
     // Automatic merging is temporarily disabled.
     // ":automergeDigest",
     // ":automergePatch",
-    ":automergePr",
-    ":automergeRequireAllStatusChecks",
     // ":automergeLinters",
     // ":automergeTesters",
     // ":automergeTypes",
+    ":automergePr",
+    ":automergeRequireAllStatusChecks",
+
     "packages:eslint",
     "workarounds:typesNodeVersioning",
     "mergeConfidence:all-badges"
   ],
   "branchPrefix": "renovate/",
+  "labels": ["dependencies"],
   "packageRules": [
     {
       "matchDatasources": ["npm"],
