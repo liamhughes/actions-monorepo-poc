@@ -2,6 +2,10 @@
   "name": "actions-monorepo-poc",
   "private": true,
   "license": "Apache-2.0",
+  "scripts": {
+    "typecheck": "npm run typecheck --workspaces",
+    "build": "npm run build --workspaces"                                                                                                                                                                                                                                      
+  },
   "workspaces": [
     "packages/*"
   ],
