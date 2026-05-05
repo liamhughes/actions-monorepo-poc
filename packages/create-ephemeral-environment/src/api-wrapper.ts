@@ -2,22 +2,28 @@ import { ActionContext } from './ActionContext';
 import { InputParameters } from './input-parameters';
 import { Client, EnvironmentRepository, Project, ProjectRepository } from '@octopusdeploy/api-client';
 
-export async function createEphemeralEnvironmentFromInputs(client: Client, parameters: InputParameters, context: ActionContext): Promise<string> {
+export async function createEphemeralEnvironmentFromInputs(
+  client: Client,
+  parameters: InputParameters,
+  context: ActionContext,
+): Promise<string> {
   client.info('🐙 Creating an ephemeral environment in Octopus Deploy...');
 
   const project = await GetProjectByName(client, parameters.project, parameters.space, context);
 
   const environmentRepository = new EnvironmentRepository(client, parameters.space);
 
-  const response = await environmentRepository.createEphemeralEnvironment(
-    parameters.name,
-    project.Id
-  );
+  const response = await environmentRepository.createEphemeralEnvironment(parameters.name, project.Id);
 
   return response.Id;
 }
 
-export async function GetProjectByName(client: Client, projectName: string, spaceName: string, context: ActionContext): Promise<Project> {
+export async function GetProjectByName(
+  client: Client,
+  projectName: string,
+  spaceName: string,
+  context: ActionContext,
+): Promise<Project> {
   const projectRepository = new ProjectRepository(client, spaceName);
 
   let project: Project | undefined;
@@ -25,8 +31,7 @@ export async function GetProjectByName(client: Client, projectName: string, spac
   try {
     const response = await projectRepository.list({ partialName: projectName });
     const projects = response.Items;
-    project = projects.find(p => p.Name === projectName);
-
+    project = projects.find((p) => p.Name === projectName);
   } catch (error) {
     context.error(`Error getting project by name: ${error}`);
   }
@@ -39,20 +44,29 @@ export async function GetProjectByName(client: Client, projectName: string, spac
   }
 }
 
-export async function GetExistingEnvironmentIdByName(client: Client, environmentName: string, spaceName: string): Promise<string | null> {
+export async function GetExistingEnvironmentIdByName(
+  client: Client,
+  environmentName: string,
+  spaceName: string,
+): Promise<string | null> {
   const environmentRepository = new EnvironmentRepository(client, spaceName);
   const existingEnvironment = await environmentRepository.getEnvironmentByName(environmentName);
-        
+
   if (existingEnvironment) {
     return existingEnvironment.Id;
-  } 
+  }
 
   return null;
 }
 
-export async function GetEnvironmentProjectStatus(client: Client, environmentId: string, projectId: string, spaceName: string): Promise<string | null> {
+export async function GetEnvironmentProjectStatus(
+  client: Client,
+  environmentId: string,
+  projectId: string,
+  spaceName: string,
+): Promise<string | null> {
   const environmentRepository = new EnvironmentRepository(client, spaceName);
   const projectStatus = await environmentRepository.getEphemeralEnvironmentProjectStatus(environmentId, projectId);
-  
+
   return projectStatus.Status;
 }

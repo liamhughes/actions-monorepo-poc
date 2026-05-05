@@ -1,45 +1,46 @@
-import type { ActionContext, InputOptions } from "./ActionContext";
+import type { ActionContext, InputOptions } from './ActionContext';
 
 export class ActionContextForTesting implements ActionContext {
-    inputs: Record<string, string> = {};
-    failureMessage: string | undefined;
-    stepSummary: string = "";
+  inputs: Record<string, string> = {};
+  failureMessage: string | undefined;
+  stepSummary: string = '';
 
-    addInput(name: string, value: string): void {
-        this.inputs[name] = value;
-    }
+  addInput(name: string, value: string): void {
+    this.inputs[name] = value;
+  }
 
-    getInput(name: string, options?: InputOptions): string {
-        const inputValue = this.inputs[name];
-        if (inputValue === undefined && options?.required === true) throw new Error(`Input required and not supplied: ${name}`);
-        return inputValue || "";
-    }
+  getInput(name: string, options?: InputOptions): string {
+    const inputValue = this.inputs[name];
+    if (inputValue === undefined && options?.required === true)
+      throw new Error(`Input required and not supplied: ${name}`);
+    return inputValue || '';
+  }
 
-    setFailed(message: string): void {
-        this.failureMessage = message;
-    }
+  setFailed(message: string): void {
+    this.failureMessage = message;
+  }
 
-    writeStepSummary(summary: string): void {
-        this.stepSummary = summary;
-    }
+  writeStepSummary(summary: string): void {
+    this.stepSummary = summary;
+  }
 
-    getStepSummary(): string | undefined {
-        return this.stepSummary || undefined;
-    }
+  getStepSummary(): string | undefined {
+    return this.stepSummary || undefined;
+  }
 
-    error(message: string): void {
-        console.error(message);
-    }
+  error(message: string): void {
+    console.error(message);
+  }
 
-    debug(message: string): void {
-        console.debug(message);
-    }
+  debug(message: string): void {
+    console.debug(message);
+  }
 
-    info(message: string): void {
-        console.debug(message);
-    }
+  info(message: string): void {
+    console.debug(message);
+  }
 
-    warning(message: string): void {
-        console.debug(message);
-    }
+  warning(message: string): void {
+    console.debug(message);
+  }
 }

@@ -1,14 +1,14 @@
 export type InputOptions = {
-    required?: boolean;
+  required?: boolean;
 };
 
 export interface ActionContext {
-    getInput: (name: string, options?: InputOptions) => string;
-    setFailed: (message: string) => void;
-    writeStepSummary: (summary: string) => void;
+  getInput: (name: string, options?: InputOptions) => string;
+  setFailed: (message: string) => void;
+  writeStepSummary: (summary: string) => void;
 
-    error: (message: string) => void;
-    debug: (message: string) => void;
-    info: (message: string) => void;
-    warning: (message: string) => void;
+  error: (message: string) => void;
+  debug: (message: string) => void;
+  info: (message: string) => void;
+  warning: (message: string) => void;
 }
