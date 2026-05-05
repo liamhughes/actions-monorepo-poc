@@ -3,11 +3,14 @@
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
+    "all": "npm run format:check && npm run typecheck && npm run lint:check && npm run test && npm run build",
+    "all:fix": "npm run format:fix && npm run lint:fix",
     "build": "npm run build --workspaces",
-    "typecheck": "npm run typecheck --workspaces",
-    "lint": "eslint .",
-    "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "npm run typecheck --workspaces",
     "test": "npm run test --workspaces --if-present"
   },
   "workspaces": [
