@@ -5,7 +5,14 @@
   "license": "Apache-2.0",
   "type": "commonjs",
   "scripts": {
-    "typecheck": "tsc --noEmit",                                                                                                                                                                                                                                               
+    "typecheck": "tsc --noEmit",
     "build": "esbuild src/index.ts --bundle --platform=node --target=node24 --outfile=dist/index.js"
+  },
+  "dependencies": {
+    "@actions/core": "3.0.0",
+    "@octopusdeploy/api-client": "3.11.0"
+  },
+  "devDependencies": {
+    "msw": "2.12.13"
   }
 }
