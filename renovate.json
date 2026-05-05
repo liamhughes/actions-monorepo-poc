@@ -19,7 +19,6 @@
   ],
   "branchPrefix": "renovate/",
   "platform": "github",
-  "repositories": ["OctopusDeploy/create-ephemeral-environment"],
   "packageRules": [
     {
       "matchDatasources": ["npm"],

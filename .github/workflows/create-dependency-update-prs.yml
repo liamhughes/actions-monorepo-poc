@@ -25,4 +25,5 @@ jobs:
         with:
           token: ${{ secrets.RENOVATE_GITHUB_TOKEN }}
         env:
+          RENOVATE_REPOSITORIES: ${{ github.repository }}
           RENOVATE_DRY_RUN: ${{ inputs.dryRun && 'full' || null }}
