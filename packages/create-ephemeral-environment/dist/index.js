@@ -58421,6 +58421,7 @@ async function createEnvironment(context) {
 
 // src/index.ts
 createEnvironment(new ActionContextImplementation()).catch((error2) => {
+  console.log("\u2753 Does Release Please build dist?");
   setFailed(error2);
   process.exit(1);
 });
