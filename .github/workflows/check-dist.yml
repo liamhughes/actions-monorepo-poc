@@ -1,0 +1,25 @@
+on:
+  pull_request:
+    branches:
+      - main
+name: Check dist
+jobs:
+  check-dist:
+    if: |
+      !startsWith(github.head_ref, 'renovate/') &&
+      !startsWith(github.head_ref, 'release-please--')
+    runs-on: ubuntu-slim
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Check for uncommitted dist changes
+        run: |
+          git diff --exit-code packages/*/dist || (echo "dist is out of date — run npm run build and commit the result" && exit 1)
