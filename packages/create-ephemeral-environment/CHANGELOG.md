@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.3.0...create-ephemeral-environment-v1.3.1) (2026-05-06)
+
+
+### Bug Fixes
+
+* Remove console.log ([d6232ef](https://github.com/liamhughes/actions-monorepo-poc/commit/d6232efc31122ad2c32362ae8f28e0d4d3b97986))
+
 ## [1.3.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.2.0...create-ephemeral-environment-v1.3.0) (2026-05-06)
 
 
