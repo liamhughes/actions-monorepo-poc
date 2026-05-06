@@ -83,8 +83,12 @@ jobs:
           git -C dest config user.name "github-actions[bot]"
           git -C dest config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git -C dest add -A
-          git -C dest commit -m "Release v$VERSION"
-          git -C dest push
+          if git -C dest diff --cached --quiet; then
+            echo "No changes to commit, skipping"
+          else
+            git -C dest commit -m "Release v$VERSION"
+            git -C dest push
+          fi
 
       - name: Apply semver tags
         run: |
@@ -93,7 +97,7 @@ jobs:
           PATCH="${{ steps.parse.outputs.patch }}"
           for TAG in "v$MAJOR" "v$MAJOR.$MINOR" "v$MAJOR.$MINOR.$PATCH"; do
             git -C dest push origin --delete "$TAG" || true
-            git -C dest tag "$TAG"
+            git -C dest tag -f "$TAG"
             git -C dest push origin "$TAG"
           done
 
@@ -105,6 +109,9 @@ jobs:
           PACKAGE_NAME="${{ steps.parse.outputs.package_name }}"
           TAG="${{ github.event.release.tag_name || inputs.tag }}"
           BODY=$(gh api "repos/${{ github.repository }}/releases/tags/${TAG}" --jq '.body')
+          gh release delete "v$VERSION" \
+            --repo "${{ github.repository_owner }}/${PACKAGE_NAME}-test" \
+            --yes || true
           gh release create "v$VERSION" \
             --repo "${{ github.repository_owner }}/${PACKAGE_NAME}-test" \
             --title "v$VERSION" \
