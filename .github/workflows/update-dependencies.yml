@@ -1,4 +1,4 @@
-name: Create Dependency Update PRs
+name: Update Dependencies
 on:
   schedule:
     - cron: '0 6 * * *'
@@ -18,7 +18,7 @@ on:
         description: Enable debug logging
 
 jobs:
-  renovate:
+  update-dependencies:
     name: Run Renovate
     runs-on: ubuntu-latest
     steps:

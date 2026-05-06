@@ -5,7 +5,7 @@ on:
       - renovate/**
 name: Build dist
 jobs:
-  build:
+  build-dist:
     runs-on: ubuntu-slim
     steps:
       - uses: actions/checkout@v4
