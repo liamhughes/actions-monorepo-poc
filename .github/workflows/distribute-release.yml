@@ -96,3 +96,16 @@ jobs:
             git -C dest tag "$TAG"
             git -C dest push origin "$TAG"
           done
+
+      - name: Create GitHub Release on destination repo
+        env:
+          GH_TOKEN: ${{ secrets.ACTION_PUBLISHING_TOKEN }}
+        run: |
+          VERSION="${{ steps.parse.outputs.version }}"
+          PACKAGE_NAME="${{ steps.parse.outputs.package_name }}"
+          TAG="${{ github.event.release.tag_name || inputs.tag }}"
+          BODY=$(gh api "repos/${{ github.repository }}/releases/tags/${TAG}" --jq '.body')
+          gh release create "v$VERSION" \
+            --repo "${{ github.repository_owner }}/${PACKAGE_NAME}-test" \
+            --title "v$VERSION" \
+            --notes "$BODY"
