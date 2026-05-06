@@ -7,6 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 An npm workspaces monorepo containing two GitHub Actions that integrate with Octopus Deploy. Each package bundles to a single `dist/index.js` file using esbuild.
 
 **Packages:**
+
 - `packages/create-ephemeral-environment` — creates ephemeral environments in Octopus Deploy
 - `packages/deploy-release-action` — deploys releases via Octopus Deploy
 
@@ -40,14 +41,14 @@ npx vitest run __tests__/foo.test.ts     # run a single test file
 
 Both packages share the same structural pattern:
 
-| File | Purpose |
-|------|---------|
-| `index.ts` | Action entrypoint — reads inputs and calls core logic |
-| `input-parameters.ts` | Parses and validates GitHub Actions inputs |
-| `api-wrapper.ts` | Wraps `@octopusdeploy/api-client` calls |
-| `ActionContext.ts` | Interface abstracting `@actions/core` for testability |
-| `ActionContextImplementation.ts` | Production implementation using `@actions/core` |
-| `ActionContextForTesting.ts` | Test double that captures outputs without side effects |
+| File                             | Purpose                                                |
+| -------------------------------- | ------------------------------------------------------ |
+| `index.ts`                       | Action entrypoint — reads inputs and calls core logic  |
+| `input-parameters.ts`            | Parses and validates GitHub Actions inputs             |
+| `api-wrapper.ts`                 | Wraps `@octopusdeploy/api-client` calls                |
+| `ActionContext.ts`               | Interface abstracting `@actions/core` for testability  |
+| `ActionContextImplementation.ts` | Production implementation using `@actions/core`        |
+| `ActionContextForTesting.ts`     | Test double that captures outputs without side effects |
 
 Tests live in `__tests__/` and use Vitest with MSW for HTTP mocking.
 
