@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.4.0...create-ephemeral-environment-v1.5.0) (2026-05-06)
+
+
+### Features
+
+* Trigger Release Please 9 ([5178994](https://github.com/liamhughes/actions-monorepo-poc/commit/5178994154c960e45e6b08d7066cb37001d05a26))
+
 ## [1.4.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.3.1...create-ephemeral-environment-v1.4.0) (2026-05-06)
 
 
