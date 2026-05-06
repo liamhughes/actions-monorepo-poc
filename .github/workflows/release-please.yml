@@ -12,9 +12,39 @@ permissions:
 jobs:
   release-please:
     runs-on: ubuntu-slim
+    outputs:
+      releases_created: ${{ steps.release.outputs.releases_created }}
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+
+  rebase-pending-prs:
+    runs-on: ubuntu-slim
+    needs: release-please
+    if: needs.release-please.outputs.releases_created == 'true'
+    steps:
+      - name: Remove autorelease label and re-trigger
+        env:
+          GH_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+        run: |
+          PENDING_PRS=$(gh pr list \
+            --repo ${{ github.repository }} \
+            --label "autorelease: pending" \
+            --state open \
+            --json number \
+            --jq '.[].number')
+
+          for PR in $PENDING_PRS; do
+            gh pr edit --repo ${{ github.repository }} $PR \
+              --remove-label "autorelease: pending"
+          done
+
+          if [ -n "$PENDING_PRS" ]; then
+            gh workflow run release-please.yml \
+              --repo ${{ github.repository }} \
+              --ref main
+          fi
