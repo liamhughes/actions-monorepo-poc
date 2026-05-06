@@ -22851,17 +22851,17 @@ var require_fs = __commonJS({
   }
 });
 
-// ../../node_modules/minimatch/lib/path.js
+// ../../node_modules/glob/node_modules/minimatch/lib/path.js
 var require_path = __commonJS({
-  "../../node_modules/minimatch/lib/path.js"(exports2, module2) {
+  "../../node_modules/glob/node_modules/minimatch/lib/path.js"(exports2, module2) {
     var isWindows = typeof process === "object" && process && process.platform === "win32";
     module2.exports = isWindows ? { sep: "\\" } : { sep: "/" };
   }
 });
 
-// ../../node_modules/balanced-match/index.js
+// ../../node_modules/glob/node_modules/balanced-match/index.js
 var require_balanced_match = __commonJS({
-  "../../node_modules/balanced-match/index.js"(exports2, module2) {
+  "../../node_modules/glob/node_modules/balanced-match/index.js"(exports2, module2) {
     "use strict";
     module2.exports = balanced;
     function balanced(a, b, str) {
@@ -22917,9 +22917,9 @@ var require_balanced_match = __commonJS({
   }
 });
 
-// ../../node_modules/brace-expansion/index.js
+// ../../node_modules/glob/node_modules/brace-expansion/index.js
 var require_brace_expansion = __commonJS({
-  "../../node_modules/brace-expansion/index.js"(exports2, module2) {
+  "../../node_modules/glob/node_modules/brace-expansion/index.js"(exports2, module2) {
     var balanced = require_balanced_match();
     module2.exports = expandTop;
     var escSlash = "\0SLASH" + Math.random() + "\0";
@@ -23069,9 +23069,9 @@ var require_brace_expansion = __commonJS({
   }
 });
 
-// ../../node_modules/minimatch/minimatch.js
+// ../../node_modules/glob/node_modules/minimatch/minimatch.js
 var require_minimatch = __commonJS({
-  "../../node_modules/minimatch/minimatch.js"(exports2, module2) {
+  "../../node_modules/glob/node_modules/minimatch/minimatch.js"(exports2, module2) {
     var minimatch = module2.exports = (p, pattern, options = {}) => {
       assertValidPattern(pattern);
       if (!options.nocomment && pattern.charAt(0) === "#") {
