@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.5.0...create-ephemeral-environment-v1.6.0) (2026-05-06)
+
+
+### Features
+
+* More :tada:s ([86590c6](https://github.com/liamhughes/actions-monorepo-poc/commit/86590c61b6d5b3a8eaca4b3ea2d09b89eac33414))
+
 ## [1.5.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.4.0...create-ephemeral-environment-v1.5.0) (2026-05-06)
 
 
