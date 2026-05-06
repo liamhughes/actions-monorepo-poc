@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/liamhughes/actions-monorepo-poc/compare/deploy-release-action-v1.4.0...deploy-release-action-v1.5.0) (2026-05-06)
+
+
+### Features
+
+* Trigger Release Please 7 ([8e8475c](https://github.com/liamhughes/actions-monorepo-poc/commit/8e8475cf6bcb7e508f9868827af906301e573c49))
+
 ## [1.4.0](https://github.com/liamhughes/actions-monorepo-poc/compare/deploy-release-action-v1.3.0...deploy-release-action-v1.4.0) (2026-05-06)
 
 
