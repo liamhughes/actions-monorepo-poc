@@ -18628,9 +18628,9 @@ var require_undici = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/overwriteMode.js
+// node_modules/@octopusdeploy/api-client/dist/features/overwriteMode.js
 var require_overwriteMode = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/overwriteMode.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/overwriteMode.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.OverwriteMode = void 0;
@@ -18643,9 +18643,9 @@ var require_overwriteMode = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/buildInformation/buildInformationRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/buildInformation/buildInformationRepository.js
 var require_buildInformationRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/buildInformation/buildInformationRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/buildInformation/buildInformationRepository.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -18866,17 +18866,17 @@ var require_buildInformationRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/buildInformation/mappedOctopusPackageVersionBuildInformation.js
+// node_modules/@octopusdeploy/api-client/dist/features/buildInformation/mappedOctopusPackageVersionBuildInformation.js
 var require_mappedOctopusPackageVersionBuildInformation = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/buildInformation/mappedOctopusPackageVersionBuildInformation.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/buildInformation/mappedOctopusPackageVersionBuildInformation.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/buildInformation/package-identity.js
+// node_modules/@octopusdeploy/api-client/dist/features/buildInformation/package-identity.js
 var require_package_identity = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/buildInformation/package-identity.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/buildInformation/package-identity.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.PackageIdentity = void 0;
@@ -18894,9 +18894,9 @@ var require_package_identity = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/buildInformation/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/buildInformation/index.js
 var require_buildInformation = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/buildInformation/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/buildInformation/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -18921,9 +18921,9 @@ var require_buildInformation = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/apiLocation.js
+// node_modules/@octopusdeploy/api-client/dist/apiLocation.js
 var require_apiLocation = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/apiLocation.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/apiLocation.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.apiLocation = void 0;
@@ -18931,9 +18931,9 @@ var require_apiLocation = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/octopusError.js
+// node_modules/@octopusdeploy/api-client/dist/octopusError.js
 var require_octopusError = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/octopusError.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/octopusError.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -18992,9 +18992,9 @@ var require_octopusError = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/capabilities/capability.js
+// node_modules/@octopusdeploy/api-client/dist/features/capabilities/capability.js
 var require_capability = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/capabilities/capability.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/capabilities/capability.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -19130,9 +19130,9 @@ var require_capability = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/capabilities/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/capabilities/index.js
 var require_capabilities = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/capabilities/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/capabilities/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -19155,17 +19155,17 @@ var require_capabilities = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/deploymentEnvironment.js
+// node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/deploymentEnvironment.js
 var require_deploymentEnvironment = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/deploymentEnvironment.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/deploymentEnvironment.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/basicRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/basicRepository.js
 var require_basicRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/basicRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/basicRepository.js"(exports2) {
     "use strict";
     var __assign = exports2 && exports2.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -19251,9 +19251,9 @@ var require_basicRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/spaceScopedRoutePrefix.js
+// node_modules/@octopusdeploy/api-client/dist/spaceScopedRoutePrefix.js
 var require_spaceScopedRoutePrefix = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/spaceScopedRoutePrefix.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/spaceScopedRoutePrefix.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.spaceScopedRoutePrefix = void 0;
@@ -19262,9 +19262,9 @@ var require_spaceScopedRoutePrefix = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/spaceScopedBasicRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/spaceScopedBasicRepository.js
 var require_spaceScopedBasicRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/spaceScopedBasicRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/spaceScopedBasicRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -19337,9 +19337,9 @@ var require_spaceScopedBasicRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/environmentRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/environmentRepository.js
 var require_environmentRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/environmentRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/environmentRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -19596,9 +19596,9 @@ var require_environmentRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/environmentV2Repository.js
+// node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/environmentV2Repository.js
 var require_environmentV2Repository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/environmentV2Repository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/environmentV2Repository.js"(exports2) {
     "use strict";
     var __assign = exports2 && exports2.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -19731,9 +19731,9 @@ var require_environmentV2Repository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/index.js
 var require_deploymentEnvironments = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/deploymentEnvironments/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -19758,9 +19758,9 @@ var require_deploymentEnvironments = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/forms/controlType.js
+// node_modules/@octopusdeploy/api-client/dist/features/forms/controlType.js
 var require_controlType = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/forms/controlType.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/forms/controlType.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ControlType = void 0;
@@ -19783,9 +19783,9 @@ var require_controlType = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/forms/dynamicFormResources.js
+// node_modules/@octopusdeploy/api-client/dist/features/forms/dynamicFormResources.js
 var require_dynamicFormResources = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/forms/dynamicFormResources.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/forms/dynamicFormResources.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ConnectivityCheckResponseMessageCategory = exports2.PropertyApplicabilityMode = void 0;
@@ -19805,9 +19805,9 @@ var require_dynamicFormResources = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/forms/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/forms/index.js
 var require_forms = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/forms/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/forms/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -19831,17 +19831,17 @@ var require_forms = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/lifecycle.js
+// node_modules/@octopusdeploy/api-client/dist/features/lifecycles/lifecycle.js
 var require_lifecycle = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/lifecycle.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/lifecycles/lifecycle.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/lifecycleRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/lifecycles/lifecycleRepository.js
 var require_lifecycleRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/lifecycleRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/lifecycles/lifecycleRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -19880,17 +19880,17 @@ var require_lifecycleRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/phase.js
+// node_modules/@octopusdeploy/api-client/dist/features/lifecycles/phase.js
 var require_phase = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/phase.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/lifecycles/phase.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/retentionPeriod.js
+// node_modules/@octopusdeploy/api-client/dist/features/lifecycles/retentionPeriod.js
 var require_retentionPeriod = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/retentionPeriod.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/lifecycles/retentionPeriod.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.RetentionUnit = void 0;
@@ -19902,9 +19902,9 @@ var require_retentionPeriod = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/lifecycles/index.js
 var require_lifecycles = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/lifecycles/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/lifecycles/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -24997,9 +24997,9 @@ var require_glob = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/zipUtils.js
+// node_modules/@octopusdeploy/api-client/dist/features/packages/pack/zipUtils.js
 var require_zipUtils = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/zipUtils.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/packages/pack/zipUtils.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -25277,9 +25277,9 @@ var require_zipUtils = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/nugetPackageBuilder.js
+// node_modules/@octopusdeploy/api-client/dist/features/packages/pack/nugetPackageBuilder.js
 var require_nugetPackageBuilder = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/nugetPackageBuilder.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/packages/pack/nugetPackageBuilder.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -25433,17 +25433,17 @@ var require_nugetPackageBuilder = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/packArgs.js
+// node_modules/@octopusdeploy/api-client/dist/features/packages/pack/packArgs.js
 var require_packArgs = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/packArgs.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/packages/pack/packArgs.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/zipPackageBuilder.js
+// node_modules/@octopusdeploy/api-client/dist/features/packages/pack/zipPackageBuilder.js
 var require_zipPackageBuilder = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/zipPackageBuilder.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/packages/pack/zipPackageBuilder.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -25571,9 +25571,9 @@ var require_zipPackageBuilder = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/packages/pack/index.js
 var require_pack = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/packages/pack/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/packages/pack/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -25598,9 +25598,9 @@ var require_pack = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/packages/package.js
+// node_modules/@octopusdeploy/api-client/dist/features/packages/package.js
 var require_package = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/packages/package.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/packages/package.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
@@ -35875,9 +35875,9 @@ var require_form_data = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/spaceResolver.js
+// node_modules/@octopusdeploy/api-client/dist/spaceResolver.js
 var require_spaceResolver = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/spaceResolver.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/spaceResolver.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -36018,9 +36018,9 @@ var require_spaceResolver = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/packages/packageRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/packages/packageRepository.js
 var require_packageRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/packages/packageRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/packages/packageRepository.js"(exports2) {
     "use strict";
     var __assign = exports2 && exports2.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -36316,9 +36316,9 @@ var require_packageRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/packages/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/packages/index.js
 var require_packages = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/packages/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/packages/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -36343,17 +36343,17 @@ var require_packages = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projectGroups/projectGroup.js
+// node_modules/@octopusdeploy/api-client/dist/features/projectGroups/projectGroup.js
 var require_projectGroup = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projectGroups/projectGroup.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projectGroups/projectGroup.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projectGroups/projectGroupRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/projectGroups/projectGroupRepository.js
 var require_projectGroupRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projectGroups/projectGroupRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projectGroups/projectGroupRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -36392,9 +36392,9 @@ var require_projectGroupRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projectGroups/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/projectGroups/index.js
 var require_projectGroups = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projectGroups/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projectGroups/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -36418,33 +36418,33 @@ var require_projectGroups = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionInputs.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionInputs.js
 var require_actionInputs = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionInputs.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionInputs.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionProperties.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionProperties.js
 var require_actionProperties = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionProperties.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionProperties.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionTemplateParameterDisplaySettings.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionTemplateParameterDisplaySettings.js
 var require_actionTemplateParameterDisplaySettings = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionTemplateParameterDisplaySettings.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionTemplateParameterDisplaySettings.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionTemplateParameter.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionTemplateParameter.js
 var require_actionTemplateParameter = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionTemplateParameter.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/actionTemplateParameter.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
@@ -41948,33 +41948,33 @@ var require_lodash = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/awsElasticContainerRegistryFeed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/awsElasticContainerRegistryFeed.js
 var require_awsElasticContainerRegistryFeed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/awsElasticContainerRegistryFeed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/awsElasticContainerRegistryFeed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/builtInFeed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/builtInFeed.js
 var require_builtInFeed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/builtInFeed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/builtInFeed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/dockerFeed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/dockerFeed.js
 var require_dockerFeed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/dockerFeed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/dockerFeed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/feedType.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/feedType.js
 var require_feedType = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/feedType.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/feedType.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.FeedType = void 0;
@@ -41992,9 +41992,9 @@ var require_feedType = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/feed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/feed.js
 var require_feed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/feed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/feed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.getFeedTypeLabel = exports2.isContainerImageRegistry = exports2.containerRegistryFeedTypes = exports2.isOctopusProjectFeed = exports2.feedTypeSupportsExtraction = exports2.feedTypeCanSearchEmpty = void 0;
@@ -42037,9 +42037,9 @@ var require_feed = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/feedRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/feedRepository.js
 var require_feedRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/feedRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/feedRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -42078,57 +42078,57 @@ var require_feedRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/gitHubFeed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/gitHubFeed.js
 var require_gitHubFeed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/gitHubFeed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/gitHubFeed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/helmFeed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/helmFeed.js
 var require_helmFeed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/helmFeed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/helmFeed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/mavenFeed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/mavenFeed.js
 var require_mavenFeed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/mavenFeed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/mavenFeed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/nugetFeed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/nugetFeed.js
 var require_nugetFeed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/nugetFeed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/nugetFeed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/octopusProjectFeed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/octopusProjectFeed.js
 var require_octopusProjectFeed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/octopusProjectFeed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/octopusProjectFeed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/retryFeed.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/retryFeed.js
 var require_retryFeed = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/retryFeed.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/retryFeed.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/feeds/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/feeds/index.js
 var require_feeds = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/feeds/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/feeds/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -42162,9 +42162,9 @@ var require_feeds = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/packageAcquisitionLocation.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/packageAcquisitionLocation.js
 var require_packageAcquisitionLocation = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/packageAcquisitionLocation.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/packageAcquisitionLocation.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.PackageAcquisitionLocation = void 0;
@@ -42177,9 +42177,9 @@ var require_packageAcquisitionLocation = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/packageReference.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/packageReference.js
 var require_packageReference = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/packageReference.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/packageReference.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.PackageSelectionMode = void 0;
@@ -42191,9 +42191,9 @@ var require_packageReference = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentAction.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentAction.js
 var require_deploymentAction = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentAction.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentAction.js"(exports2) {
     "use strict";
     var __assign = exports2 && exports2.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -42357,17 +42357,17 @@ var require_deploymentAction = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentActionContainer.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentActionContainer.js
 var require_deploymentActionContainer = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentActionContainer.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentActionContainer.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentActionPackage.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentActionPackage.js
 var require_deploymentActionPackage = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentActionPackage.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentActionPackage.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -45203,9 +45203,9 @@ var require_URITemplate = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/resolver.js
+// node_modules/@octopusdeploy/api-client/dist/resolver.js
 var require_resolver = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/resolver.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/resolver.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Resolver = void 0;
@@ -45251,9 +45251,9 @@ var require_resolver = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/utils.js
+// node_modules/@octopusdeploy/api-client/dist/utils.js
 var require_utils3 = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/utils.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/utils.js"(exports2) {
     "use strict";
     var __importDefault = exports2 && exports2.__importDefault || function(mod) {
       return mod && mod.__esModule ? mod : { "default": mod };
@@ -45313,9 +45313,9 @@ var require_utils3 = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/permission.js
+// node_modules/@octopusdeploy/api-client/dist/features/permission.js
 var require_permission = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/permission.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/permission.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.Permission = void 0;
@@ -45442,9 +45442,9 @@ var require_permission = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookProcess.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookProcess.js
 var require_runbookProcess = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookProcess.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookProcess.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.processResourcePermission = exports2.isRunbookProcess = void 0;
@@ -45466,9 +45466,9 @@ var require_runbookProcess = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentProcess.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentProcess.js
 var require_deploymentProcess = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentProcess.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentProcess.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.isDeploymentProcess = void 0;
@@ -45485,9 +45485,9 @@ var require_deploymentProcess = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentProcessRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentProcessRepository.js
 var require_deploymentProcessRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentProcessRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentProcessRepository.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -45672,9 +45672,9 @@ var require_deploymentProcessRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentSettings.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentSettings.js
 var require_deploymentSettings = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentSettings.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentSettings.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.GuidedFailureMode = void 0;
@@ -45687,9 +45687,9 @@ var require_deploymentSettings = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentStep.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentStep.js
 var require_deploymentStep = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentStep.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/deploymentStep.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.PackageRequirement = exports2.RunCondition = exports2.StartTrigger = void 0;
@@ -45714,9 +45714,9 @@ var require_deploymentStep = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/runConditionForAction.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/runConditionForAction.js
 var require_runConditionForAction = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/runConditionForAction.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/runConditionForAction.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.RunConditionForAction = void 0;
@@ -45728,9 +45728,9 @@ var require_runConditionForAction = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/index.js
 var require_deploymentProcesses = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/deploymentProcesses/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -45766,25 +45766,25 @@ var require_deploymentProcesses = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/createDeploymentTenantedCommandV1.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/createDeploymentTenantedCommandV1.js
 var require_createDeploymentTenantedCommandV1 = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/createDeploymentTenantedCommandV1.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/createDeploymentTenantedCommandV1.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/createDeploymentUntenantedCommandV1.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/createDeploymentUntenantedCommandV1.js
 var require_createDeploymentUntenantedCommandV1 = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/createDeploymentUntenantedCommandV1.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/createDeploymentUntenantedCommandV1.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deployment.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deployment.js
 var require_deployment = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deployment.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deployment.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
@@ -47720,9 +47720,9 @@ var require_semver2 = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deploymentRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deploymentRepository.js
 var require_deploymentRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deploymentRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deploymentRepository.js"(exports2) {
     "use strict";
     var __assign = exports2 && exports2.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -47930,17 +47930,17 @@ var require_deploymentRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deploymentServerTask.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deploymentServerTask.js
 var require_deploymentServerTask = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deploymentServerTask.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/deploymentServerTask.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/index.js
 var require_deployments = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/deployments/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -47967,41 +47967,41 @@ var require_deployments = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/createReleaseCommandV1.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/createReleaseCommandV1.js
 var require_createReleaseCommandV1 = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/createReleaseCommandV1.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/createReleaseCommandV1.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/createReleaseResponseV1.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/createReleaseResponseV1.js
 var require_createReleaseResponseV1 = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/createReleaseResponseV1.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/createReleaseResponseV1.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/release.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/release.js
 var require_release = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/release.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/release.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/releaseChanges.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/releaseChanges.js
 var require_releaseChanges = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/releaseChanges.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/releaseChanges.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/releaseRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/releaseRepository.js
 var require_releaseRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/releaseRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/releaseRepository.js"(exports2) {
     "use strict";
     var __assign = exports2 && exports2.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -48173,9 +48173,9 @@ var require_releaseRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/releases/index.js
 var require_releases = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/releases/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/releases/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -48203,25 +48203,25 @@ var require_releases = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/createRunbookRunCommandV1.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/createRunbookRunCommandV1.js
 var require_createRunbookRunCommandV1 = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/createRunbookRunCommandV1.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/createRunbookRunCommandV1.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRun.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRun.js
 var require_runbookRun = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRun.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRun.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRunRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRunRepository.js
 var require_runbookRunRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRunRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRunRepository.js"(exports2) {
     "use strict";
     var __assign = exports2 && exports2.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -48429,17 +48429,17 @@ var require_runbookRunRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRunServerTask.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRunServerTask.js
 var require_runbookRunServerTask = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRunServerTask.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/runbookRunServerTask.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/index.js
 var require_runs = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runs/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -48465,17 +48465,17 @@ var require_runs = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbook.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbook.js
 var require_runbook = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbook.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbook.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookEnvironmentScope.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookEnvironmentScope.js
 var require_runbookEnvironmentScope = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookEnvironmentScope.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookEnvironmentScope.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.RunbookEnvironmentScope = void 0;
@@ -48488,9 +48488,9 @@ var require_runbookEnvironmentScope = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookProcessRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookProcessRepository.js
 var require_runbookProcessRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookProcessRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookProcessRepository.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -48680,9 +48680,9 @@ var require_runbookProcessRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookRepository.js
 var require_runbookRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -48894,9 +48894,9 @@ var require_runbookRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookRetentionPeriod.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookRetentionPeriod.js
 var require_runbookRetentionPeriod = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookRetentionPeriod.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookRetentionPeriod.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.RunbookRetentionUnit = void 0;
@@ -48908,17 +48908,17 @@ var require_runbookRetentionPeriod = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookSnapshot.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookSnapshot.js
 var require_runbookSnapshot = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookSnapshot.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookSnapshot.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookSnapshotRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookSnapshotRepository.js
 var require_runbookSnapshotRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookSnapshotRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/runbookSnapshotRepository.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -49058,9 +49058,9 @@ var require_runbookSnapshotRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/index.js
 var require_runbooks = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/runbooks/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -49091,25 +49091,25 @@ var require_runbooks = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/createExecutionBaseV1.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/createExecutionBaseV1.js
 var require_createExecutionBaseV1 = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/createExecutionBaseV1.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/createExecutionBaseV1.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/execution.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/execution.js
 var require_execution = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/execution.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/execution.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/project.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/project.js
 var require_project = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/project.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/project.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.getBranchNameFromRouteParameter = exports2.getURISafeBranchName = exports2.isVcsBranchResource = exports2.NewProject = exports2.HasVersionControlledPersistenceSettings = exports2.IsUsingUsernamePasswordAuth = exports2.AuthenticationType = exports2.PersistenceSettingsType = void 0;
@@ -49157,9 +49157,9 @@ var require_project = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/projectRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/projectRepository.js
 var require_projectRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/projectRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/projectRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -49198,9 +49198,9 @@ var require_projectRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/tenantedDeploymentMode.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/tenantedDeploymentMode.js
 var require_tenantedDeploymentMode = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/tenantedDeploymentMode.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/tenantedDeploymentMode.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.TenantedDeploymentMode = void 0;
@@ -49213,9 +49213,9 @@ var require_tenantedDeploymentMode = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/projects/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/projects/index.js
 var require_projects = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/projects/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/projects/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -49245,17 +49245,17 @@ var require_projects = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTask.js
+// node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTask.js
 var require_serverTask = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTask.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTask.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskDetails.js
+// node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskDetails.js
 var require_serverTaskDetails = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskDetails.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskDetails.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.ActivityLogEntryCategory = exports2.ActivityStatus = void 0;
@@ -49289,9 +49289,9 @@ var require_serverTaskDetails = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskRepository.js
 var require_serverTaskRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskRepository.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -49425,9 +49425,9 @@ var require_serverTaskRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskWaiter.js
+// node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskWaiter.js
 var require_serverTaskWaiter = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskWaiter.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/serverTasks/serverTaskWaiter.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -49543,12 +49543,9 @@ var require_serverTaskWaiter = __commonJS({
     var ServerTaskWaiter = (
       /** @class */
       function() {
-        function ServerTaskWaiter2(client, spaceName, options) {
-          var _a, _b;
+        function ServerTaskWaiter2(client, spaceName) {
           this.client = client;
           this.spaceName = spaceName;
-          this.maxRetries = (_a = options === null || options === void 0 ? void 0 : options.maxRetries) !== null && _a !== void 0 ? _a : 3;
-          this.retryBackoffMs = (_b = options === null || options === void 0 ? void 0 : options.retryBackoffMs) !== null && _b !== void 0 ? _b : 5e3;
         }
         ServerTaskWaiter2.prototype.waitForServerTasksToComplete = function(serverTaskIds, statusCheckSleepCycle, timeout, pollingCallback, cancelOnTimeout) {
           if (cancelOnTimeout === void 0) {
@@ -49584,7 +49581,7 @@ var require_serverTaskWaiter = __commonJS({
         };
         ServerTaskWaiter2.prototype.waitForTasks = function(spaceServerTaskRepository, serverTaskRepository, serverTaskIds, statusCheckSleepCycle, timeout, cancelOnTimeout, pollingCallback) {
           return __awaiter2(this, void 0, void 0, function() {
-            var sleep, stop, timedOut, t, completedTasks, _loop_1, this_1;
+            var sleep, stop, timedOut, t, completedTasks, _loop_1;
             var _this = this;
             return __generator(this, function(_a) {
               switch (_a.label) {
@@ -49617,7 +49614,7 @@ var require_serverTaskWaiter = __commonJS({
                     return __generator(this, function(_c) {
                       switch (_c.label) {
                         case 0:
-                          return [4, this_1.getTasksWithRetry(spaceServerTaskRepository, serverTaskIds)];
+                          return [4, spaceServerTaskRepository.getByIds(serverTaskIds)];
                         case 1:
                           tasks = _c.sent();
                           unknownTaskIds = serverTaskIds.filter(function(id) {
@@ -49666,7 +49663,6 @@ var require_serverTaskWaiter = __commonJS({
                       }
                     });
                   };
-                  this_1 = this;
                   _a.label = 2;
                 case 2:
                   if (!!stop) return [3, 4];
@@ -49749,99 +49745,6 @@ var require_serverTaskWaiter = __commonJS({
             });
           });
         };
-        ServerTaskWaiter2.prototype.getTasksWithRetry = function(repository, taskIds) {
-          var _a;
-          return __awaiter2(this, void 0, void 0, function() {
-            var lastError, _loop_2, this_2, attempt, state_1;
-            return __generator(this, function(_b) {
-              switch (_b.label) {
-                case 0:
-                  _loop_2 = function(attempt2) {
-                    var _c, error_2, errorMessage, statusCode, isRetryable, backoffDelay_1;
-                    return __generator(this, function(_d) {
-                      switch (_d.label) {
-                        case 0:
-                          _d.trys.push([0, 2, , 4]);
-                          _c = {};
-                          return [4, repository.getByIds(taskIds)];
-                        case 1:
-                          return [2, (_c.value = _d.sent(), _c)];
-                        case 2:
-                          error_2 = _d.sent();
-                          lastError = error_2;
-                          errorMessage = error_2 instanceof Error ? error_2.message : String(error_2);
-                          statusCode = error_2.StatusCode || (typeof error_2.code === "number" ? error_2.code : null) || ((_a = error_2.response) === null || _a === void 0 ? void 0 : _a.status) || error_2.status;
-                          isRetryable = this_2.isRetryableError(error_2, statusCode);
-                          if (!isRetryable)
-                            throw error_2;
-                          if (attempt2 === this_2.maxRetries)
-                            throw new Error("Failed to connect to Octopus server after ".concat(this_2.maxRetries, " attempts. ") + "Last error: ".concat(errorMessage));
-                          backoffDelay_1 = this_2.retryBackoffMs * Math.pow(2, attempt2);
-                          this_2.client.warn("HTTP request failed (attempt ".concat(attempt2 + 1, "/").concat(this_2.maxRetries, "): ").concat(errorMessage).concat(statusCode ? " [".concat(statusCode, "]") : "", ". Retrying in ").concat(backoffDelay_1, "ms..."));
-                          return [4, new Promise(function(resolve) {
-                            return setTimeout(resolve, backoffDelay_1);
-                          })];
-                        case 3:
-                          _d.sent();
-                          return [3, 4];
-                        case 4:
-                          return [
-                            2
-                            /*return*/
-                          ];
-                      }
-                    });
-                  };
-                  this_2 = this;
-                  attempt = 0;
-                  _b.label = 1;
-                case 1:
-                  if (!(attempt <= this.maxRetries)) return [3, 4];
-                  return [5, _loop_2(attempt)];
-                case 2:
-                  state_1 = _b.sent();
-                  if (typeof state_1 === "object")
-                    return [2, state_1.value];
-                  _b.label = 3;
-                case 3:
-                  attempt++;
-                  return [3, 1];
-                case 4:
-                  throw lastError;
-              }
-            });
-          });
-        };
-        ServerTaskWaiter2.prototype.isRetryableError = function(error2, statusCode) {
-          if (!error2)
-            return false;
-          if (statusCode && [408, 429, 500, 502, 503, 504].includes(statusCode)) {
-            return true;
-          }
-          try {
-            var errorStr_1 = String(error2.message || error2).toLowerCase();
-            var errorCode_1 = error2.code ? String(error2.code).toLowerCase() : "";
-            var keywords = [
-              "timeout",
-              "etimedout",
-              "econnreset",
-              "econnrefused",
-              "econnaborted",
-              "enotfound",
-              "eai_again",
-              "epipe",
-              "ehostunreach",
-              "enetunreach",
-              "socket",
-              "network"
-            ];
-            return keywords.some(function(k) {
-              return errorStr_1.includes(k) || errorCode_1.includes(k);
-            });
-          } catch (_a) {
-            return false;
-          }
-        };
         return ServerTaskWaiter2;
       }()
     );
@@ -49849,9 +49752,9 @@ var require_serverTaskWaiter = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/spaceServerTaskRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/serverTasks/spaceServerTaskRepository.js
 var require_spaceServerTaskRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/spaceServerTaskRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/serverTasks/spaceServerTaskRepository.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -50008,40 +49911,36 @@ var require_spaceServerTaskRepository = __commonJS({
         };
         SpaceServerTaskRepository2.prototype.getByIds = function(serverTaskIds) {
           return __awaiter2(this, void 0, void 0, function() {
-            var batchSize, idArrays, promises3, _a, _b, _c, index, ids, results;
+            var batchSize, idArrays, promises3, _a, _b, _c, index, ids;
             var e_1, _d;
             return __generator(this, function(_e) {
-              switch (_e.label) {
-                case 0:
-                  batchSize = 300;
-                  idArrays = (0, lodash_1.chunk)(serverTaskIds, batchSize);
-                  promises3 = [];
-                  try {
-                    for (_a = __values(idArrays.entries()), _b = _a.next(); !_b.done; _b = _a.next()) {
-                      _c = __read(_b.value, 2), index = _c[0], ids = _c[1];
-                      promises3.push(this.client.request("".concat(this.baseApiPathTemplate, "{?skip,take,ids,partialName}"), {
-                        spaceName: this.spaceName,
-                        ids,
-                        skip: index * batchSize,
-                        take: batchSize
-                      }));
-                    }
-                  } catch (e_1_1) {
-                    e_1 = { error: e_1_1 };
-                  } finally {
-                    try {
-                      if (_b && !_b.done && (_d = _a.return)) _d.call(_a);
-                    } finally {
-                      if (e_1) throw e_1.error;
-                    }
-                  }
-                  return [4, Promise.all(promises3)];
-                case 1:
-                  results = _e.sent();
-                  return [2, (0, lodash_1.flatMap)(results, function(c) {
-                    return c.Items;
-                  })];
+              batchSize = 300;
+              idArrays = (0, lodash_1.chunk)(serverTaskIds, batchSize);
+              promises3 = [];
+              try {
+                for (_a = __values(idArrays.entries()), _b = _a.next(); !_b.done; _b = _a.next()) {
+                  _c = __read(_b.value, 2), index = _c[0], ids = _c[1];
+                  promises3.push(this.client.request("".concat(this.baseApiPathTemplate, "{?skip,take,ids,partialName}"), {
+                    spaceName: this.spaceName,
+                    ids,
+                    skip: index * batchSize,
+                    take: batchSize
+                  }));
+                }
+              } catch (e_1_1) {
+                e_1 = { error: e_1_1 };
+              } finally {
+                try {
+                  if (_b && !_b.done && (_d = _a.return)) _d.call(_a);
+                } finally {
+                  if (e_1) throw e_1.error;
+                }
               }
+              return [2, Promise.allSettled(promises3).then(function(result) {
+                return (0, lodash_1.flatMap)(result, function(c) {
+                  return c.status == "fulfilled" ? c.value.Items : [];
+                });
+              })];
             });
           });
         };
@@ -50088,9 +49987,9 @@ var require_spaceServerTaskRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/taskState.js
+// node_modules/@octopusdeploy/api-client/dist/features/serverTasks/taskState.js
 var require_taskState = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/taskState.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/serverTasks/taskState.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.TaskState = void 0;
@@ -50107,9 +50006,9 @@ var require_taskState = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/serverTasks/index.js
 var require_serverTasks = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/serverTasks/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/serverTasks/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -50137,17 +50036,17 @@ var require_serverTasks = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/spaces/space.js
+// node_modules/@octopusdeploy/api-client/dist/features/spaces/space.js
 var require_space = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/spaces/space.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/spaces/space.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/spaces/spaceRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/spaces/spaceRepository.js
 var require_spaceRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/spaces/spaceRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/spaces/spaceRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -50186,9 +50085,9 @@ var require_spaceRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/spaces/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/spaces/index.js
 var require_spaces = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/spaces/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/spaces/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -50212,25 +50111,25 @@ var require_spaces = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/tagSets/tag.js
+// node_modules/@octopusdeploy/api-client/dist/features/tagSets/tag.js
 var require_tag = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/tagSets/tag.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/tagSets/tag.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/tagSets/tagSet.js
+// node_modules/@octopusdeploy/api-client/dist/features/tagSets/tagSet.js
 var require_tagSet = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/tagSets/tagSet.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/tagSets/tagSet.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/tagSets/tagSetRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/tagSets/tagSetRepository.js
 var require_tagSetRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/tagSets/tagSetRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/tagSets/tagSetRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -50272,9 +50171,9 @@ var require_tagSetRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/tagSets/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/tagSets/index.js
 var require_tagSets = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/tagSets/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/tagSets/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -50299,25 +50198,25 @@ var require_tagSets = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/tenants/tenant.js
+// node_modules/@octopusdeploy/api-client/dist/features/tenants/tenant.js
 var require_tenant = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/tenants/tenant.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/tenants/tenant.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantMissingVariables.js
+// node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantMissingVariables.js
 var require_tenantMissingVariables = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantMissingVariables.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantMissingVariables.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantRepository.js
 var require_tenantRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantRepository.js"(exports2) {
     "use strict";
     var __extends = exports2 && exports2.__extends || /* @__PURE__ */ function() {
       var extendStatics = function(d, b) {
@@ -50455,17 +50354,17 @@ var require_tenantRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantVariable.js
+// node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantVariable.js
 var require_tenantVariable = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantVariable.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/tenants/tenantVariable.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/tenants/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/tenants/index.js
 var require_tenants = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/tenants/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/tenants/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -50491,17 +50390,17 @@ var require_tenants = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/users/identity.js
+// node_modules/@octopusdeploy/api-client/dist/features/users/identity.js
 var require_identity = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/users/identity.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/users/identity.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/users/identityType.js
+// node_modules/@octopusdeploy/api-client/dist/features/users/identityType.js
 var require_identityType = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/users/identityType.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/users/identityType.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.IdentityType = void 0;
@@ -50515,17 +50414,17 @@ var require_identityType = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/users/user.js
+// node_modules/@octopusdeploy/api-client/dist/features/users/user.js
 var require_user = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/users/user.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/users/user.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/users/user-get-current.js
+// node_modules/@octopusdeploy/api-client/dist/features/users/user-get-current.js
 var require_user_get_current = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/users/user-get-current.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/users/user-get-current.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -50644,9 +50543,9 @@ var require_user_get_current = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/users/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/users/index.js
 var require_users = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/users/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/users/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -50672,9 +50571,9 @@ var require_users = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/variables/propertyValue.js
+// node_modules/@octopusdeploy/api-client/dist/features/variables/propertyValue.js
 var require_propertyValue = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/variables/propertyValue.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/variables/propertyValue.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.isSensitiveValue = exports2.NewSensitiveValue = void 0;
@@ -50696,9 +50595,9 @@ var require_propertyValue = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/variables/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/variables/index.js
 var require_variables = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/variables/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/variables/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -50721,81 +50620,81 @@ var require_variables = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/canBeVersionControlled.js
+// node_modules/@octopusdeploy/api-client/dist/features/canBeVersionControlled.js
 var require_canBeVersionControlled = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/canBeVersionControlled.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/canBeVersionControlled.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/commitCommand.js
+// node_modules/@octopusdeploy/api-client/dist/features/commitCommand.js
 var require_commitCommand = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/commitCommand.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/commitCommand.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/extensionSettingsValues.js
+// node_modules/@octopusdeploy/api-client/dist/features/extensionSettingsValues.js
 var require_extensionSettingsValues = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/extensionSettingsValues.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/extensionSettingsValues.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/observability/containerLogs.js
+// node_modules/@octopusdeploy/api-client/dist/features/observability/containerLogs.js
 var require_containerLogs = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/observability/containerLogs.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/observability/containerLogs.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/observability/liveStatus.js
+// node_modules/@octopusdeploy/api-client/dist/features/observability/liveStatus.js
 var require_liveStatus = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/observability/liveStatus.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/observability/liveStatus.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/observability/monitorErrorResource.js
+// node_modules/@octopusdeploy/api-client/dist/features/observability/monitorErrorResource.js
 var require_monitorErrorResource = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/observability/monitorErrorResource.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/observability/monitorErrorResource.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/observability/resource.js
+// node_modules/@octopusdeploy/api-client/dist/features/observability/resource.js
 var require_resource = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/observability/resource.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/observability/resource.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/observability/resourceEvents.js
+// node_modules/@octopusdeploy/api-client/dist/features/observability/resourceEvents.js
 var require_resourceEvents = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/observability/resourceEvents.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/observability/resourceEvents.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/observability/resourceEventsSession.js
+// node_modules/@octopusdeploy/api-client/dist/features/observability/resourceEventsSession.js
 var require_resourceEventsSession = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/observability/resourceEventsSession.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/observability/resourceEventsSession.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/observability/observabilityRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/observability/observabilityRepository.js
 var require_observabilityRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/observability/observabilityRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/observability/observabilityRepository.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -51077,9 +50976,9 @@ var require_observabilityRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/observability/kubernetesMonitorRepository.js
+// node_modules/@octopusdeploy/api-client/dist/features/observability/kubernetesMonitorRepository.js
 var require_kubernetesMonitorRepository = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/observability/kubernetesMonitorRepository.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/observability/kubernetesMonitorRepository.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -51251,9 +51150,9 @@ var require_kubernetesMonitorRepository = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/observability/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/observability/index.js
 var require_observability = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/observability/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/observability/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -51283,9 +51182,9 @@ var require_observability = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/features/index.js
+// node_modules/@octopusdeploy/api-client/dist/features/index.js
 var require_features = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/features/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/features/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
@@ -51329,9 +51228,9 @@ var require_features = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/adapter.js
+// node_modules/@octopusdeploy/api-client/dist/adapter.js
 var require_adapter = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/adapter.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/adapter.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.AdapterError = void 0;
@@ -56583,9 +56482,9 @@ var require_axios = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/adapters/createRequestHeaders.js
+// node_modules/@octopusdeploy/api-client/dist/adapters/createRequestHeaders.js
 var require_createRequestHeaders = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/adapters/createRequestHeaders.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/adapters/createRequestHeaders.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.createRequestHeaders = void 0;
@@ -56609,9 +56508,9 @@ var require_createRequestHeaders = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/adapters/axiosAdapter.js
+// node_modules/@octopusdeploy/api-client/dist/adapters/axiosAdapter.js
 var require_axiosAdapter = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/adapters/axiosAdapter.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/adapters/axiosAdapter.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -56794,9 +56693,9 @@ var require_axiosAdapter = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/apiClient.js
+// node_modules/@octopusdeploy/api-client/dist/apiClient.js
 var require_apiClient = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/apiClient.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/apiClient.js"(exports2) {
     "use strict";
     var __awaiter2 = exports2 && exports2.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -56987,9 +56886,9 @@ var require_apiClient = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/caching.js
+// node_modules/@octopusdeploy/api-client/dist/caching.js
 var require_caching = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/caching.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/caching.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var MAX_MEMORY = Math.pow(1024, 2) * 1e3 / 2;
@@ -57084,9 +56983,9 @@ var require_caching = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/subscriptionRecord.js
+// node_modules/@octopusdeploy/api-client/dist/subscriptionRecord.js
 var require_subscriptionRecord = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/subscriptionRecord.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/subscriptionRecord.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.SubscriptionRecord = void 0;
@@ -57129,9 +57028,9 @@ var require_subscriptionRecord = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/spaceScopedOperation.js
+// node_modules/@octopusdeploy/api-client/dist/spaceScopedOperation.js
 var require_spaceScopedOperation = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/spaceScopedOperation.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/spaceScopedOperation.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.isSpaceScopedOperation = void 0;
@@ -57142,9 +57041,9 @@ var require_spaceScopedOperation = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/spaceScopedArgs.js
+// node_modules/@octopusdeploy/api-client/dist/spaceScopedArgs.js
 var require_spaceScopedArgs = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/spaceScopedArgs.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/spaceScopedArgs.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.isSpaceScopedArgs = void 0;
@@ -57155,9 +57054,9 @@ var require_spaceScopedArgs = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/spaceScopedRequest.js
+// node_modules/@octopusdeploy/api-client/dist/spaceScopedRequest.js
 var require_spaceScopedRequest = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/spaceScopedRequest.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/spaceScopedRequest.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.isSpaceScopedRequest = void 0;
@@ -57168,9 +57067,9 @@ var require_spaceScopedRequest = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/client.js
+// node_modules/@octopusdeploy/api-client/dist/client.js
 var require_client2 = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/client.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/client.js"(exports2) {
     "use strict";
     var __assign = exports2 && exports2.__assign || function() {
       __assign = Object.assign || function(t) {
@@ -57601,49 +57500,49 @@ var require_client2 = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/clientConfiguration.js
+// node_modules/@octopusdeploy/api-client/dist/clientConfiguration.js
 var require_clientConfiguration = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/clientConfiguration.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/clientConfiguration.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/clientErrorResponseDetails.js
+// node_modules/@octopusdeploy/api-client/dist/clientErrorResponseDetails.js
 var require_clientErrorResponseDetails = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/clientErrorResponseDetails.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/clientErrorResponseDetails.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/clientOptions.js
+// node_modules/@octopusdeploy/api-client/dist/clientOptions.js
 var require_clientOptions = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/clientOptions.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/clientOptions.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/clientRequestDetails.js
+// node_modules/@octopusdeploy/api-client/dist/clientRequestDetails.js
 var require_clientRequestDetails = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/clientRequestDetails.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/clientRequestDetails.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/clientResponseDetails.js
+// node_modules/@octopusdeploy/api-client/dist/clientResponseDetails.js
 var require_clientResponseDetails = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/clientResponseDetails.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/clientResponseDetails.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/environment.js
+// node_modules/@octopusdeploy/api-client/dist/environment.js
 var require_environment = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/environment.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/environment.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     var Environment = (
@@ -57661,41 +57560,41 @@ var require_environment = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/errorResponseDetails.js
+// node_modules/@octopusdeploy/api-client/dist/errorResponseDetails.js
 var require_errorResponseDetails = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/errorResponseDetails.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/errorResponseDetails.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/logger.js
+// node_modules/@octopusdeploy/api-client/dist/logger.js
 var require_logger = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/logger.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/logger.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/namedResource.js
+// node_modules/@octopusdeploy/api-client/dist/namedResource.js
 var require_namedResource = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/namedResource.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/namedResource.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/requestDetails.js
+// node_modules/@octopusdeploy/api-client/dist/requestDetails.js
 var require_requestDetails = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/requestDetails.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/requestDetails.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/resource.js
+// node_modules/@octopusdeploy/api-client/dist/resource.js
 var require_resource2 = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/resource.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/resource.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.isResource = void 0;
@@ -57706,33 +57605,33 @@ var require_resource2 = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/resourceCollection.js
+// node_modules/@octopusdeploy/api-client/dist/resourceCollection.js
 var require_resourceCollection = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/resourceCollection.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/resourceCollection.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/responseDetails.js
+// node_modules/@octopusdeploy/api-client/dist/responseDetails.js
 var require_responseDetails = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/responseDetails.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/responseDetails.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/serverInformation.js
+// node_modules/@octopusdeploy/api-client/dist/serverInformation.js
 var require_serverInformation = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/serverInformation.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/serverInformation.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/spaceScopedResource.js
+// node_modules/@octopusdeploy/api-client/dist/spaceScopedResource.js
 var require_spaceScopedResource = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/spaceScopedResource.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/spaceScopedResource.js"(exports2) {
     "use strict";
     Object.defineProperty(exports2, "__esModule", { value: true });
     exports2.isSpaceScopedResource = void 0;
@@ -57743,9 +57642,9 @@ var require_spaceScopedResource = __commonJS({
   }
 });
 
-// ../../node_modules/@octopusdeploy/api-client/dist/index.js
+// node_modules/@octopusdeploy/api-client/dist/index.js
 var require_dist = __commonJS({
-  "../../node_modules/@octopusdeploy/api-client/dist/index.js"(exports2) {
+  "node_modules/@octopusdeploy/api-client/dist/index.js"(exports2) {
     "use strict";
     var __createBinding = exports2 && exports2.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0) k2 = k;
