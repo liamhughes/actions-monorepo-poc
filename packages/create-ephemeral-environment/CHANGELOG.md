@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.3.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.2.0...create-ephemeral-environment-v1.3.0) (2026-05-06)
+
+
+### Features
+
+* Trigger Release Please 3 ([ea327bd](https://github.com/liamhughes/actions-monorepo-poc/commit/ea327bdd1b7992a058c833f0c9c70d9b2b4fcb32))
+* Trigger Release Please 4 ([184f81c](https://github.com/liamhughes/actions-monorepo-poc/commit/184f81cabedddc5678d2c7bf4f63a384cdc9f142))
+* Trigger Release Please 5 ([ef8050c](https://github.com/liamhughes/actions-monorepo-poc/commit/ef8050cef48691df7512aff6460bebf26647723c))
+* Trigger Release Please 6 ([410df6c](https://github.com/liamhughes/actions-monorepo-poc/commit/410df6c993f4bbbd1c286f8677a93872b0012d86))
+* Trigger Release Please 7 ([8e8475c](https://github.com/liamhughes/actions-monorepo-poc/commit/8e8475cf6bcb7e508f9868827af906301e573c49))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @actions/core to v3.0.1 ([#3](https://github.com/liamhughes/actions-monorepo-poc/issues/3)) ([d7f6c51](https://github.com/liamhughes/actions-monorepo-poc/commit/d7f6c51bccc03a4aace620c54364d71bcc0174b5))
+
 ## [1.2.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.1.0...create-ephemeral-environment-v1.2.0) (2026-05-06)
 
 
