@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 jobs:
   release-please:
@@ -44,7 +45,7 @@ jobs:
           done
 
           if [ -n "$PENDING_PRS" ]; then
-            gh workflow run release-please.yml \
+            GH_TOKEN=${{ github.token }} gh workflow run release-please.yml \
               --repo ${{ github.repository }} \
               --ref main
           fi
