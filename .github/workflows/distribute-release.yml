@@ -1,0 +1,98 @@
+name: Distribute Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag to distribute (e.g. create-ephemeral-environment-v1.3.0)'
+        required: true
+
+jobs:
+  distribute:
+    runs-on: ubuntu-slim
+    permissions:
+      contents: read
+    steps:
+      - name: Resolve and parse tag
+        id: parse
+        run: |
+          TAG="${{ github.event.release.tag_name || inputs.tag }}"
+          if [[ ! "$TAG" =~ ^(.+)-v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+            echo "::error::Tag '$TAG' does not match expected format <package-name>-v<major>.<minor>.<patch>"
+            exit 1
+          fi
+          echo "package_name=${BASH_REMATCH[1]}" >> "$GITHUB_OUTPUT"
+          echo "version=${BASH_REMATCH[2]}.${BASH_REMATCH[3]}.${BASH_REMATCH[4]}" >> "$GITHUB_OUTPUT"
+          echo "major=${BASH_REMATCH[2]}" >> "$GITHUB_OUTPUT"
+          echo "minor=${BASH_REMATCH[3]}" >> "$GITHUB_OUTPUT"
+          echo "patch=${BASH_REMATCH[4]}" >> "$GITHUB_OUTPUT"
+
+      - name: Resolve tarball URL
+        id: tarball
+        run: |
+          if [[ "${{ github.event_name }}" == "release" ]]; then
+            echo "url=${{ github.event.release.tarball_url }}" >> "$GITHUB_OUTPUT"
+          else
+            TAG="${{ github.event.release.tag_name || inputs.tag }}"
+            echo "url=https://github.com/${{ github.repository }}/archive/refs/tags/${TAG}.tar.gz" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Download release tarball
+        run: |
+          curl -fsSL \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -o source.tar.gz \
+            "${{ steps.tarball.outputs.url }}"
+
+      - name: Extract archive
+        run: |
+          mkdir source
+          tar -xzf source.tar.gz -C source --strip-components=1
+
+      - name: Verify package contents
+        run: |
+          PACKAGE_NAME="${{ steps.parse.outputs.package_name }}"
+          if [[ ! -d "source/packages/$PACKAGE_NAME/dist" ]]; then
+            echo "::error::dist/ not found at source/packages/$PACKAGE_NAME/dist"
+            exit 1
+          fi
+          if [[ ! -f "source/packages/$PACKAGE_NAME/CHANGELOG.md" ]]; then
+            echo "::error::CHANGELOG.md not found at source/packages/$PACKAGE_NAME/CHANGELOG.md"
+            exit 1
+          fi
+
+      - name: Clone destination repo
+        run: |
+          PACKAGE_NAME="${{ steps.parse.outputs.package_name }}"
+          git clone \
+            "https://x-access-token:${{ secrets.ACTION_PUBLISHING_TOKEN }}@github.com/${{ github.repository_owner }}/${PACKAGE_NAME}-test" \
+            dest
+
+      - name: Replace destination contents
+        run: |
+          PACKAGE_NAME="${{ steps.parse.outputs.package_name }}"
+          git -C dest rm -rf .
+          cp -r "source/packages/$PACKAGE_NAME/dist/." dest/
+          cp "source/packages/$PACKAGE_NAME/CHANGELOG.md" dest/
+
+      - name: Commit and push
+        run: |
+          VERSION="${{ steps.parse.outputs.version }}"
+          git -C dest config user.name "github-actions[bot]"
+          git -C dest config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C dest add -A
+          git -C dest commit -m "Release v$VERSION"
+          git -C dest push
+
+      - name: Apply semver tags
+        run: |
+          MAJOR="${{ steps.parse.outputs.major }}"
+          MINOR="${{ steps.parse.outputs.minor }}"
+          PATCH="${{ steps.parse.outputs.patch }}"
+          for TAG in "v$MAJOR" "v$MAJOR.$MINOR" "v$MAJOR.$MINOR.$PATCH"; do
+            git -C dest push origin --delete "$TAG" || true
+            git -C dest tag "$TAG"
+            git -C dest push origin "$TAG"
+          done
