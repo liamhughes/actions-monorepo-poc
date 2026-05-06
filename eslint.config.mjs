@@ -17,7 +17,7 @@ const packageOverrides = readdirSync('./packages').map((pkg) => ({
 }));
 
 export default tseslint.config(
-  { ignores: ['**/dist/**'] },
+  { ignores: ['**/dist/**', '**/CHANGELOG.md'] },
   eslint.configs.recommended,
   tseslint.configs.recommended,
   prettier,
