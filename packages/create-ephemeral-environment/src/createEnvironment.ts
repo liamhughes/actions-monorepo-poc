@@ -28,7 +28,7 @@ export async function createEnvironment(context: ActionContext): Promise<void> {
     context.info(`🆕 Environment not found - creating new environment`);
     await createEphemeralEnvironmentFromInputs(client, parameters, context);
 
-    client.info(`🎉🎉🎉 Ephemeral environment '${parameters.name}' created successfully!`);
+    client.info(`🎉 Ephemeral environment '${parameters.name}' created successfully!`);
     context.writeStepSummary(
       `🐙 Octopus Deploy created an ephemeral environment **${parameters.name}** for project **${parameters.project}**.`,
     );
