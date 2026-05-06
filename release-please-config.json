@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "packages": {
+    "packages/create-ephemeral-environment": {
+      "release-type": "node",
+      "component": "create-ephemeral-environment"
+    },
+    "packages/deploy-release-action": {
+      "release-type": "node",
+      "component": "deploy-release-action"
+    }
+  }
+}

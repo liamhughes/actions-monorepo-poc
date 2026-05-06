@@ -1,0 +1,4 @@
+{
+  "packages/create-ephemeral-environment": "1.0.0",
+  "packages/deploy-release-action": "1.0.0"
+}
