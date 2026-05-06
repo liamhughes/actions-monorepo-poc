@@ -115,4 +115,5 @@ jobs:
           gh release create "v$VERSION" \
             --repo "${{ github.repository_owner }}/${PACKAGE_NAME}-test" \
             --title "v$VERSION" \
-            --notes "$BODY"
+            --notes "$BODY" \
+            --prerelease
