@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - release-please--**
+      - renovate/**
 name: Build dist
 jobs:
   build:
@@ -17,15 +18,16 @@ jobs:
 
       - run: npm ci
 
-      - name: Build
-        run: |
-          COMPONENT=$(echo "$GITHUB_REF_NAME" | sed 's/.*--components--//')
-          npm run build --workspace=packages/$COMPONENT
+      - run: npm run build
 
       - name: Commit dist
         run: |
-          COMPONENT=$(echo "$GITHUB_REF_NAME" | sed 's/.*--components--//')
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add packages/$COMPONENT/dist
+          if echo "$GITHUB_REF_NAME" | grep -q -- '--components--'; then
+            COMPONENT=$(echo "$GITHUB_REF_NAME" | sed 's/.*--components--//')
+            git add packages/$COMPONENT/dist
+          else
+            git add packages/*/dist
+          fi
           git diff-index --quiet HEAD || git commit -m "chore: build dist [skip ci]" && git push origin
