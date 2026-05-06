@@ -30,4 +30,4 @@ jobs:
           else
             git add packages/*/dist
           fi
-          git diff-index --quiet HEAD || (git commit -m "chore: build dist [skip ci]" && git push origin)
+          git diff --cached --quiet || (git commit -m "chore: build dist [skip ci]" && git push origin)
