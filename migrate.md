@@ -18,7 +18,7 @@ Pause at the completion of each migration, let me review and commit, including u
 - [x] create-ephemeral-environment
 - [x] create-nuget-package-action
 - [x] create-release-action
-- [ ] create-zip-package-action
+- [x] create-zip-package-action
 - [x] deploy-release-action
 - [ ] deploy-release-tenanted-action
 - [ ] deprovision-ephemeral-environment
