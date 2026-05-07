@@ -1,6 +1,6 @@
 {
   "name": "install-octopus-cli-action",
-  "version": "4.1.0",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "license": "Apache-2.0",
   "type": "commonjs",
