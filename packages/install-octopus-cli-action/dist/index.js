@@ -24416,7 +24416,7 @@ function info(message) {
   process.stdout.write(message + os5.EOL);
 }
 
-// src/main.ts
+// src/index.ts
 var import_path2 = require("path");
 
 // ../../node_modules/@actions/core/lib/command.js
@@ -26082,7 +26082,7 @@ async function installOctopusCli(version) {
   return exePath;
 }
 
-// src/main.ts
+// src/index.ts
 async function run() {
   try {
     let version = getInput("version") || "*";

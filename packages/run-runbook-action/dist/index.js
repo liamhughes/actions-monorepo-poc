@@ -58367,7 +58367,7 @@ function getInputParameters() {
   return parameters;
 }
 
-// src/main.ts
+// src/index.ts
 var import_api_client2 = __toESM(require_dist());
 
 // src/api-wrapper.ts
@@ -58445,7 +58445,7 @@ async function parseResult(client, response, runbookRunRepository, parameters) {
   return results;
 }
 
-// src/main.ts
+// src/index.ts
 var import_fs2 = require("fs");
 (async () => {
   try {

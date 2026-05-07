@@ -3,7 +3,7 @@ description: Login to your Octopus Server
 author: Octopus Deploy
 runs:
   using: node24
-  main: dist/index.js
+  main: index.js
 inputs:
   server:
     description: The URL of the Octopus Instance (e.g. "https://octopus.example.com/").
