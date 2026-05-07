@@ -25,5 +25,5 @@ Pause at the completion of each migration, let me review and commit, including u
 - [x] install-octopus-cli-action
 - [x] login
 - [x] push-build-information-action
-- [ ] push-package-action
+- [x] push-package-action
 - [ ] run-runbook-action
