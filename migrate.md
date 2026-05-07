@@ -22,7 +22,7 @@ Pause at the completion of each migration, let me review and commit, including u
 - [x] deploy-release-action
 - [x] deploy-release-tenanted-action
 - [x] deprovision-ephemeral-environment
-- [ ] install-octopus-cli-action
+- [x] install-octopus-cli-action
 - [ ] login
 - [ ] push-build-information-action
 - [ ] push-package-action

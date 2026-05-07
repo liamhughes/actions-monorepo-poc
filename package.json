@@ -20,6 +20,8 @@
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.12.2",
     "@types/tmp": "0.2.6",
+    "@types/uuid": "9.0.8",
+    "@types/semver": "7.7.1",
     "tmp": "0.2.5",
     "esbuild": "0.25.1",
     "eslint": "^10.3.0",
