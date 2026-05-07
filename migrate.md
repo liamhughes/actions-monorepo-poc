@@ -21,7 +21,7 @@ Pause at the completion of each migration, let me review and commit, including u
 - [x] create-zip-package-action
 - [x] deploy-release-action
 - [x] deploy-release-tenanted-action
-- [ ] deprovision-ephemeral-environment
+- [x] deprovision-ephemeral-environment
 - [ ] install-octopus-cli-action
 - [ ] login
 - [ ] push-build-information-action
