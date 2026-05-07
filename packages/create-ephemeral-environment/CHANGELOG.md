@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.6.0...create-ephemeral-environment-v1.7.0) (2026-05-07)
+
+
+### Features
+
+* Migrate the rest ([#29](https://github.com/liamhughes/actions-monorepo-poc/issues/29)) ([ed634b5](https://github.com/liamhughes/actions-monorepo-poc/commit/ed634b5bca83fa402ad4d69febb77563723ab1b8))
+
+
+### Bug Fixes
+
+* build create-ephemeral-environment dist ([44f7654](https://github.com/liamhughes/actions-monorepo-poc/commit/44f7654843ed8fb166f6fc154df0fed0916d6f04))
+
 ## [1.6.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.5.0...create-ephemeral-environment-v1.6.0) (2026-05-06)
 
 
