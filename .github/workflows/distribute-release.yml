@@ -76,6 +76,7 @@ jobs:
           git -C dest rm -rf .
           cp -r "source/packages/$PACKAGE_NAME/dist/." dest/
           cp "source/packages/$PACKAGE_NAME/CHANGELOG.md" dest/
+          cp "source/LICENSE" dest/
 
       - name: Commit and push
         run: |
