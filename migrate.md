@@ -26,4 +26,4 @@ Pause at the completion of each migration, let me review and commit, including u
 - [x] login
 - [x] push-build-information-action
 - [x] push-package-action
-- [ ] run-runbook-action
+- [x] run-runbook-action
