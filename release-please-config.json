@@ -2,13 +2,57 @@
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "separate-pull-requests": true,
   "packages": {
+    "packages/await-task-action": {
+      "release-type": "node",
+      "component": "await-task-action"
+    },
     "packages/create-ephemeral-environment": {
       "release-type": "node",
       "component": "create-ephemeral-environment"
     },
+    "packages/create-nuget-package-action": {
+      "release-type": "node",
+      "component": "create-nuget-package-action"
+    },
+    "packages/create-release-action": {
+      "release-type": "node",
+      "component": "create-release-action"
+    },
+    "packages/create-zip-package-action": {
+      "release-type": "node",
+      "component": "create-zip-package-action"
+    },
     "packages/deploy-release-action": {
       "release-type": "node",
       "component": "deploy-release-action"
+    },
+    "packages/deploy-release-tenanted-action": {
+      "release-type": "node",
+      "component": "deploy-release-tenanted-action"
+    },
+    "packages/deprovision-ephemeral-environment": {
+      "release-type": "node",
+      "component": "deprovision-ephemeral-environment"
+    },
+    "packages/install-octopus-cli-action": {
+      "release-type": "node",
+      "component": "install-octopus-cli-action"
+    },
+    "packages/login": {
+      "release-type": "node",
+      "component": "login"
+    },
+    "packages/push-build-information-action": {
+      "release-type": "node",
+      "component": "push-build-information-action"
+    },
+    "packages/push-package-action": {
+      "release-type": "node",
+      "component": "push-package-action"
+    },
+    "packages/run-runbook-action": {
+      "release-type": "node",
+      "component": "run-runbook-action"
     }
   }
 }

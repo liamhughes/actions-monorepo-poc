@@ -1,6 +1,6 @@
 {
   "name": "deploy-release-tenanted-action",
-  "version": "4.0.2",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "license": "Apache-2.0",
   "type": "commonjs",

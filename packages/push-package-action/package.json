@@ -1,6 +1,6 @@
 {
   "name": "push-package-action",
-  "version": "4.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "license": "Apache-2.0",
   "type": "commonjs",
