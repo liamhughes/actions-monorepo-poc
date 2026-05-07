@@ -24,6 +24,6 @@ Pause at the completion of each migration, let me review and commit, including u
 - [x] deprovision-ephemeral-environment
 - [x] install-octopus-cli-action
 - [x] login
-- [ ] push-build-information-action
+- [x] push-build-information-action
 - [ ] push-package-action
 - [ ] run-runbook-action
