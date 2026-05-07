@@ -4,12 +4,23 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-An npm workspaces monorepo containing two GitHub Actions that integrate with Octopus Deploy. Each package bundles to a single `dist/index.js` file using esbuild.
+An npm workspaces monorepo containing GitHub Actions that integrate with Octopus Deploy. Each package bundles to a single `dist/index.js` file using esbuild.
 
 **Packages:**
 
+- `packages/await-task-action` — waits for a running Octopus Deploy server task to complete
 - `packages/create-ephemeral-environment` — creates ephemeral environments in Octopus Deploy
+- `packages/create-nuget-package-action` — creates a NuGet package for upload to Octopus Deploy
+- `packages/create-release-action` — creates a release in Octopus Deploy
+- `packages/create-zip-package-action` — creates a zip package for upload to Octopus Deploy
 - `packages/deploy-release-action` — deploys releases via Octopus Deploy
+- `packages/deploy-release-tenanted-action` — deploys releases to tenants via Octopus Deploy
+- `packages/deprovision-ephemeral-environment` — deprovisions ephemeral environments in Octopus Deploy
+- `packages/install-octopus-cli-action` — installs the Octopus CLI tool
+- `packages/login` — authenticates with an Octopus Deploy instance
+- `packages/push-build-information-action` — pushes build information to Octopus Deploy
+- `packages/push-package-action` — pushes packages to an Octopus Deploy feed
+- `packages/run-runbook-action` — runs a runbook in Octopus Deploy
 
 ## Commands
 
@@ -27,8 +38,8 @@ npm run test         # vitest across all packages
 Run from a package directory for single-package scope:
 
 ```bash
-npm run test                              # run all tests in this package
-npx vitest run __tests__/foo.test.ts     # run a single test file
+npm run test                                       # run all tests in this package
+npx vitest run src/__tests__/foo.test.ts           # run a single test file
 ```
 
 ## Code Quality
@@ -39,7 +50,7 @@ npx vitest run __tests__/foo.test.ts     # run a single test file
 
 ## Architecture
 
-Both packages share the same structural pattern:
+All packages share the same structural pattern:
 
 | File                             | Purpose                                                |
 | -------------------------------- | ------------------------------------------------------ |
@@ -50,7 +61,7 @@ Both packages share the same structural pattern:
 | `ActionContextImplementation.ts` | Production implementation using `@actions/core`        |
 | `ActionContextForTesting.ts`     | Test double that captures outputs without side effects |
 
-Tests live in `__tests__/` and use Vitest with MSW for HTTP mocking.
+Tests live in `src/__tests__/` and use Vitest. Unit tests run against real logic; integration tests are preserved but wrapped in `describe.skip` so they only run when explicitly enabled against a live Octopus instance.
 
 ## Release & Distribution
 

@@ -1,0 +1,16 @@
+name: 'Install Octopus CLI'
+description: 'GitHub Action to install the Octopus CLI'
+author: 'Octopus Deploy'
+branding: 
+  color: 'blue'
+  icon: 'download'
+
+inputs:
+  version:
+    default: 'latest'
+    description: 'Octopus CLI version'
+    required: false
+
+runs:
+  using: 'node24'
+  main: 'index.js'
