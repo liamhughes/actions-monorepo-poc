@@ -56,4 +56,4 @@ Tests live in `__tests__/` and use Vitest with MSW for HTTP mocking.
 
 - **Release Please** manages changelogs and version bumps via PRs (separate PR per package)
 - On release publish, the `distribute-release.yml` workflow pushes built artifacts and semver tags (`v1`, `v1.5`, `v1.5.0`) to separate `<package-name>-test` repositories
-- `dist/` is committed on release branches (not in main development) — the `check-dist.yml` workflow enforces this
+- `dist/` must be committed as part of every PR — the `check-dist.yml` workflow enforces this on all PRs to main
