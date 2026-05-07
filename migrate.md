@@ -17,7 +17,7 @@ Pause at the completion of each migration, let me review and commit, including u
 - [x] await-task-action
 - [x] create-ephemeral-environment
 - [x] create-nuget-package-action
-- [ ] create-release-action
+- [x] create-release-action
 - [ ] create-zip-package-action
 - [x] deploy-release-action
 - [ ] deploy-release-tenanted-action
