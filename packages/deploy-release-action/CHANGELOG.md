@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/liamhughes/actions-monorepo-poc/compare/deploy-release-action-v1.6.0...deploy-release-action-v1.7.0) (2026-05-08)
+
+
+### Features
+
+* Migrate the rest ([#29](https://github.com/liamhughes/actions-monorepo-poc/issues/29)) ([ed634b5](https://github.com/liamhughes/actions-monorepo-poc/commit/ed634b5bca83fa402ad4d69febb77563723ab1b8))
+
 ## [1.6.0](https://github.com/liamhughes/actions-monorepo-poc/compare/deploy-release-action-v1.5.0...deploy-release-action-v1.6.0) (2026-05-07)
 
 
