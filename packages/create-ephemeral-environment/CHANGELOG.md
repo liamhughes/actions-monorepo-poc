@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.7.0...create-ephemeral-environment-v1.8.0) (2026-05-08)
+
+
+### Features
+
+* More exuberant celebration ([#47](https://github.com/liamhughes/actions-monorepo-poc/issues/47)) ([6d03b37](https://github.com/liamhughes/actions-monorepo-poc/commit/6d03b37c58ecb430c43a146db45b988e3afa356e))
+
 ## [1.7.0](https://github.com/liamhughes/actions-monorepo-poc/compare/create-ephemeral-environment-v1.6.0...create-ephemeral-environment-v1.7.0) (2026-05-07)
 
 
