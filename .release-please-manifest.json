@@ -6,7 +6,7 @@
   "packages/create-zip-package-action": "1.0.0",
   "packages/deploy-release-action": "1.6.0",
   "packages/deploy-release-tenanted-action": "1.0.0",
-  "packages/deprovision-ephemeral-environment": "1.0.0",
+  "packages/deprovision-ephemeral-environment": "1.1.0",
   "packages/install-octopus-cli-action": "1.0.0",
   "packages/login": "1.0.0",
   "packages/push-build-information-action": "1.0.0",
