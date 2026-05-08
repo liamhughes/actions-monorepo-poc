@@ -58384,7 +58384,7 @@ async function createEnvironment(context) {
   if (!environmentId) {
     context.info(`\u{1F195} Environment not found - creating new environment`);
     await createEphemeralEnvironmentFromInputs(client, parameters, context);
-    client.info(`\u{1F389} Ephemeral environment '${parameters.name}' created successfully!`);
+    client.info(`\u{1F389}\u{1F389}\u{1F389} Ephemeral environment '${parameters.name}' created successfully! \u{1F389}\u{1F389}\u{1F389}`);
     context.writeStepSummary(
       `\u{1F419} Octopus Deploy created an ephemeral environment **${parameters.name}** for project **${parameters.project}**.`
     );
