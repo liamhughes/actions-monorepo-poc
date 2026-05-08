@@ -1,6 +1,6 @@
 {
   "packages/await-task-action": "1.0.0",
-  "packages/create-ephemeral-environment": "1.7.0",
+  "packages/create-ephemeral-environment": "1.8.0",
   "packages/create-nuget-package-action": "1.0.0",
   "packages/create-release-action": "1.0.0",
   "packages/create-zip-package-action": "1.0.0",
