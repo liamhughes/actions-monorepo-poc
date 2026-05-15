@@ -13,6 +13,6 @@
     "@actions/core": "^3.0.0",
     "@actions/github": "^9.1.1",
     "@octokit/webhooks-types": "6.10.0",
-    "@octopusdeploy/api-client": "3.11.0"
+    "@octopusdeploy/api-client": "3.11.3"
   }
 }
